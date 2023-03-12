@@ -1,0 +1,21 @@
+<div class="filters">
+<mat-form-field>
+    <mat-label>Sort</mat-label>
+    <mat-select panelClass="sort-select" [(ngModel)]="sort">
+        <mat-option value="name">Name</mat-option>
+        <mat-option value="-date">Date</mat-option>
+        <mat-option value="-rating">Rating</mat-option>
+    </mat-select>
+</mat-form-field>
+</div>
+
+<div class="movies">
+    <div class="movie">
+        <div class="movie-thumb-container">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg" alt="thumbnail" class="movie-thumbnail" />
+        </div>
+        <div class="movie-description">
+            <p class="movie-name">Name</p>
+        </div>
+    </div>
+</div>
